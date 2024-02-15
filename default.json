@@ -1,0 +1,51 @@
+{
+  "$schema": "https://docs.renovatebot.com/renovate-schema.json",
+  "extends": ["config:base", ":preserveSemverRanges"],
+  "ignorePresets": [":prHourlyLimit2"],
+  "timezone": "Asia/Tokyo",
+  "dependencyDashboard": false,
+  "branchConcurrentLimit": 0,
+  "packageRules": [
+    {
+      "matchPackagePatterns": ["eslint", "stylelint", "prettier", "^@types"],
+      "matchPackageNames": ["actions/checkout", "actions/setup-node", "http-server", "pnpm/action-setup", "renovate"],
+      "automerge": true
+    },
+    {
+      "matchUpdateTypes": ["minor", "patch"],
+      "matchPackageNames": [
+        "@faker-js/faker",
+        "@nuxtjs/google-fonts",
+        "@prisma/client",
+        "date-fns",
+        "dayjs",
+        "markdown-it",
+        "markdown-it",
+        "microcms-js-sdk",
+        "netlify-cli",
+        "next",
+        "nuxt",
+        "pinia",
+        "postcss-html",
+        "postcss",
+        "prisma",
+        "react-dom",
+        "react-icons",
+        "react",
+        "sass",
+        "simple-icons",
+        "ts-node",
+        "tsx",
+        "typescript",
+        "vue-gtag-next",
+        "vue-material-design-icons"
+      ],
+      "automerge": true
+    },
+    {
+      "matchUpdateTypes": ["patch"],
+      "matchPackageNames": ["@xmldom/xmldom", "@pinia/nuxt"],
+      "automerge": true
+    }
+  ]
+}

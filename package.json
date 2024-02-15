@@ -1,0 +1,16 @@
+{
+  "name": "renovate-settings",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "renovate-config-validator default.json"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "prettier": "^3.2.5",
+    "renovate": "^37.192.1"
+  }
+}

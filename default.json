@@ -1,6 +1,6 @@
 {
   "$schema": "https://docs.renovatebot.com/renovate-schema.json",
-  "extends": ["config:base", ":preserveSemverRanges"],
+  "extends": ["config:base", ":pinDependencies"],
   "ignorePresets": [":prHourlyLimit2"],
   "timezone": "Asia/Tokyo",
   "dependencyDashboard": false,
@@ -8,7 +8,16 @@
   "packageRules": [
     {
       "matchPackagePatterns": ["eslint", "stylelint", "prettier", "^@types"],
-      "matchPackageNames": ["actions/checkout", "actions/setup-node", "http-server", "node", "node.js", "pnpm", "pnpm/action-setup", "renovate"],
+      "matchPackageNames": [
+        "actions/checkout",
+        "actions/setup-node",
+        "http-server",
+        "node",
+        "node.js",
+        "pnpm",
+        "pnpm/action-setup",
+        "renovate"
+      ],
       "automerge": true
     },
     {

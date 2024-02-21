@@ -1,10 +1,7 @@
 {
   "$schema": "https://docs.renovatebot.com/renovate-schema.json",
-  "extends": ["config:base", ":pinDependencies"],
-  "ignorePresets": [":prHourlyLimit2"],
+  "extends": ["config:recommended", ":pinDependencies"],
   "timezone": "Asia/Tokyo",
-  "dependencyDashboard": false,
-  "branchConcurrentLimit": 0,
   "packageRules": [
     {
       "matchPackagePatterns": ["eslint", "stylelint", "prettier", "^@types"],
@@ -55,6 +52,10 @@
       "matchUpdateTypes": ["patch"],
       "matchPackageNames": ["@xmldom/xmldom", "@pinia/nuxt"],
       "automerge": true
+    },
+    {
+      "groupName": "stylelint",
+      "matchPackageNames": ["stylelint"]
     }
   ]
 }

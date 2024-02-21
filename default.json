@@ -55,6 +55,10 @@
       "matchUpdateTypes": ["patch"],
       "matchPackageNames": ["@xmldom/xmldom", "@pinia/nuxt"],
       "automerge": true
+    },
+    {
+      "groupName": "stylelint",
+      "matchPackageNames": ["stylelint"]
     }
   ]
 }

@@ -9,8 +9,8 @@ devDependencies:
     specifier: 3.2.5
     version: 3.2.5
   renovate:
-    specifier: 37.192.1
-    version: 37.192.1(typanion@3.14.0)
+    specifier: 37.207.0
+    version: 37.207.0(typanion@3.14.0)
 
 packages:
 
@@ -2298,8 +2298,8 @@ packages:
     resolution: {integrity: sha512-NzUnlZexiaH/46WDhANlyR2bXRopNg4F/zuSA3OpZnllCUgRaOF2znDioDWrmbNVsuZk6l9pMquQB38cfBZwkQ==}
     dev: true
 
-  /better-sqlite3@9.4.0:
-    resolution: {integrity: sha512-5kynxekMxSjCMiFyUBLHggFcJkCmiZi6fUkiGz/B5GZOvdRWQJD0klqCx5/Y+bm2AKP7I/DHbSFx26AxjruWNg==}
+  /better-sqlite3@9.4.1:
+    resolution: {integrity: sha512-QpqiQeMI4WkE+dQ68zTMX5OzlPGc7lXIDP1iKUt4Omt9PdaVgzKYxHIJRIzt1E+RUBQoFmkip/IbvzyrxehAIg==}
     requiresBuild: true
     dependencies:
       bindings: 1.5.0
@@ -4599,8 +4599,8 @@ packages:
       - supports-color
     dev: true
 
-  /renovate@37.192.1(typanion@3.14.0):
-    resolution: {integrity: sha512-FQ6Aph80J7ZL2WgmEZbcSB0WzAa5Q3+AYjYTPo09u1ATgB1ebo6HRpLvpaicXWXsGLRR3RZ9h7S1n2n9RJDNug==}
+  /renovate@37.207.0(typanion@3.14.0):
+    resolution: {integrity: sha512-ifChBEwNbsvEkgSJN9DVWKbfyRA+3pzZ/AUm5Y7EvaPIOmLaceMciDrtONFLSc7uw3kheaoes5EJxWowYBbvag==}
     engines: {node: ^18.12.0 || >=20.0.0, pnpm: ^8.0.0}
     hasBin: true
     dependencies:
@@ -4637,7 +4637,7 @@ packages:
       auth-header: 1.0.0
       aws4: 1.12.0
       azure-devops-node-api: 12.4.0
-      better-sqlite3: 9.4.0
+      better-sqlite3: 9.4.1
       bunyan: 1.8.15
       cacache: 18.0.2
       cacheable-lookup: 5.0.4

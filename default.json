@@ -31,6 +31,7 @@
         "netlify-cli",
         "next",
         "nuxt",
+        "nuxt-typed-router",
         "pinia",
         "postcss-html",
         "postcss",
@@ -55,7 +56,11 @@
     },
     {
       "groupName": "stylelint",
-      "matchPackageNames": ["stylelint"]
+      "matchPackagePatterns": ["stylelint"]
+    },
+    {
+      "groupName": "nuxt",
+      "matchPackageNames": ["nuxt", "nuxt-typed-router"]
     }
   ]
 }

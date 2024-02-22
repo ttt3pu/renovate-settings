@@ -31,6 +31,7 @@
         "netlify-cli",
         "next",
         "nuxt",
+        "nuxt-gtag",
         "nuxt-typed-router",
         "pinia",
         "postcss-html",

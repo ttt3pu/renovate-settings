@@ -23,6 +23,7 @@
         "@faker-js/faker",
         "@nuxtjs/google-fonts",
         "@prisma/client",
+        "autoprefixer",
         "date-fns",
         "dayjs",
         "markdown-it",

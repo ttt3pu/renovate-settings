@@ -23,6 +23,7 @@
         "@faker-js/faker",
         "@nuxtjs/google-fonts",
         "@prisma/client",
+        "@vuepic/vue-datepicker",
         "autoprefixer",
         "date-fns",
         "dayjs",

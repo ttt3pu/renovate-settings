@@ -39,6 +39,7 @@
         "postcss-html",
         "postcss",
         "prisma",
+        "react-datepicker",
         "react-dom",
         "react-icons",
         "react",

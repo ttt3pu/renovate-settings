@@ -12,8 +12,8 @@ importers:
         specifier: 3.2.5
         version: 3.2.5
       renovate:
-        specifier: 37.358.0
-        version: 37.358.0(@aws-sdk/client-sso-oidc@3.556.0(@aws-sdk/credential-provider-node@3.565.0))(@aws-sdk/client-sts@3.565.0(@aws-sdk/client-sso-oidc@3.556.0(@aws-sdk/credential-provider-node@3.565.0)))(encoding@0.1.13)(typanion@3.14.0)
+        specifier: 37.358.1
+        version: 37.358.1(@aws-sdk/client-sso-oidc@3.556.0(@aws-sdk/credential-provider-node@3.565.0))(@aws-sdk/client-sts@3.565.0(@aws-sdk/client-sso-oidc@3.556.0(@aws-sdk/credential-provider-node@3.565.0)))(encoding@0.1.13)(typanion@3.14.0)
 
 packages:
 
@@ -994,9 +994,6 @@ packages:
 
   buffer@5.7.1:
     resolution: {integrity: sha512-EHcyIPBQ4BSGlvjB16k5KgAJ27CIsHY/2JBmCRReo48y9rQ3MaUzWX3KVlBa4U7MyX02HdVj0K7C3WaB3ju7FQ==}
-
-  builtins@5.0.1:
-    resolution: {integrity: sha512-qwVpFEHNfhYJIzNRBvd2C1kyo6jz3ZSMPyyuR47OPdiKWlbYnZNyDWuyR175qDnAJLiCo5fBBqPb3RiXgWlkOQ==}
 
   bunyan@1.8.15:
     resolution: {integrity: sha512-0tECWShh6wUysgucJcBAoYegf3JJoZWibxdqhTm7OHPeT42qdjkZ29QCMcKwbgU1kiH+auSIasNRXMLWXafXig==}
@@ -2376,8 +2373,8 @@ packages:
   remark@13.0.0:
     resolution: {integrity: sha512-HDz1+IKGtOyWN+QgBiAT0kn+2s6ovOxHyPAFGKVE81VSzJ+mq7RwHFledEvB5F1p4iJvOah/LOKdFuzvRnNLCA==}
 
-  renovate@37.358.0:
-    resolution: {integrity: sha512-n7GoVUXRXo9O3oGC2WMWYOAScWqn5IJ99ER7k0OlW8BeGW+UAj24hC02iHEk0ciIJpmyO5YorkR0f80PvMCFMA==}
+  renovate@37.358.1:
+    resolution: {integrity: sha512-imyv+/F32QT+A1uGMavvA8TkLIoADEZtAni/4cf/P9D6LGvfvBQgA+KFneOvz8slLCmw0h9+1TGOTtXfoI142Q==}
     engines: {node: ^18.12.0 || >=20.0.0, pnpm: ^9.0.0}
     hasBin: true
 
@@ -2820,8 +2817,8 @@ packages:
   validate-npm-package-license@3.0.4:
     resolution: {integrity: sha512-DpKm2Ui/xN7/HQKCtpZxoRWBhZ9Z0kqtygG8XCgNQ8ZlDnxuQmWhj566j8fN4Cu3/JmbhsDo7fcAJq4s9h27Ew==}
 
-  validate-npm-package-name@5.0.0:
-    resolution: {integrity: sha512-YuKoXDAhBYxY7SfOKxHBDoSyENFeW5VvIIQp2TGQuit8gpK6MnWaQelBKxso72DoxTZfZdcP3W90LqpSkgPzLQ==}
+  validate-npm-package-name@5.0.1:
+    resolution: {integrity: sha512-OljLrQ9SQdOUqTaQxqL5dEfZWrXExyyWsozYlAWFawPVNuD83igl7uJD2RTkNMbniIYgt8l81eCJGIdQF7avLQ==}
     engines: {node: ^14.17.0 || ^16.13.0 || >=18.0.0}
 
   vfile-message@2.0.4:
@@ -4765,10 +4762,6 @@ snapshots:
       ieee754: 1.2.1
     optional: true
 
-  builtins@5.0.1:
-    dependencies:
-      semver: 7.6.0
-
   bunyan@1.8.15:
     optionalDependencies:
       dtrace-provider: 0.8.8
@@ -6356,7 +6349,7 @@ snapshots:
     transitivePeerDependencies:
       - supports-color
 
-  renovate@37.358.0(@aws-sdk/client-sso-oidc@3.556.0(@aws-sdk/credential-provider-node@3.565.0))(@aws-sdk/client-sts@3.565.0(@aws-sdk/client-sso-oidc@3.556.0(@aws-sdk/credential-provider-node@3.565.0)))(encoding@0.1.13)(typanion@3.14.0):
+  renovate@37.358.1(@aws-sdk/client-sso-oidc@3.556.0(@aws-sdk/credential-provider-node@3.565.0))(@aws-sdk/client-sts@3.565.0(@aws-sdk/client-sso-oidc@3.556.0(@aws-sdk/credential-provider-node@3.565.0)))(encoding@0.1.13)(typanion@3.14.0):
     dependencies:
       '@aws-sdk/client-codecommit': 3.565.0(@aws-sdk/client-sso-oidc@3.556.0(@aws-sdk/credential-provider-node@3.565.0))(@aws-sdk/client-sts@3.565.0(@aws-sdk/client-sso-oidc@3.556.0(@aws-sdk/credential-provider-node@3.565.0)))
       '@aws-sdk/client-ec2': 3.565.0(@aws-sdk/client-sso-oidc@3.556.0(@aws-sdk/credential-provider-node@3.565.0))(@aws-sdk/client-sts@3.565.0(@aws-sdk/client-sso-oidc@3.556.0(@aws-sdk/credential-provider-node@3.565.0)))
@@ -6459,7 +6452,7 @@ snapshots:
       tslib: 2.6.2
       upath: 2.0.1
       url-join: 4.0.1
-      validate-npm-package-name: 5.0.0
+      validate-npm-package-name: 5.0.1
       vuln-vects: 1.1.0
       xmldoc: 1.3.0
       zod: 3.23.6
@@ -6978,9 +6971,7 @@ snapshots:
       spdx-correct: 3.2.0
       spdx-expression-parse: 3.0.1
 
-  validate-npm-package-name@5.0.0:
-    dependencies:
-      builtins: 5.0.1
+  validate-npm-package-name@5.0.1: {}
 
   vfile-message@2.0.4:
     dependencies:

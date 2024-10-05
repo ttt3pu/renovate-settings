@@ -33,6 +33,7 @@
         "microcms-js-sdk",
         "netlify-cli",
         "next",
+        "next-auth",
         "nuxt",
         "nuxt-gtag",
         "nuxt-typed-router",
@@ -60,7 +61,7 @@
     },
     {
       "matchUpdateTypes": ["patch"],
-      "matchPackageNames": ["@xmldom/xmldom", "@pinia/nuxt"],
+      "matchPackageNames": ["@sidebase/nuxt-auth", "@xmldom/xmldom", "@pinia/nuxt"],
       "automerge": true
     },
     {

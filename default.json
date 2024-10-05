@@ -22,6 +22,7 @@
       "matchPackageNames": [
         "@faker-js/faker",
         "@nuxtjs/google-fonts",
+        "@nuxtjs/tailwindcss",
         "@prisma/client",
         "@vuepic/vue-datepicker",
         "autoprefixer",

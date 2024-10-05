@@ -52,6 +52,7 @@
         "typescript",
         "vue-gtag-next",
         "vue-material-design-icons",
+        "vue-toast-notification",
         "vue-tsc"
       ],
       "automerge": true

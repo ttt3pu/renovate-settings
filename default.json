@@ -20,6 +20,7 @@
         "date-fns",
         "dayjs",
         "eslint",
+        "eslint-config-next",
         "http-server",
         "markdown-it",
         "microcms-js-sdk",

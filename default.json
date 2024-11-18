@@ -11,6 +11,7 @@
       "matchUpdateTypes": ["minor", "patch"],
       "matchPackageNames": [
         "@faker-js/faker",
+        "@nuxt/eslint",
         "@nuxtjs/google-fonts",
         "@nuxtjs/tailwindcss",
         "@prisma/client",

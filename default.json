@@ -24,15 +24,12 @@
         "prettier",
         "renovate",
         "stylelint",
+        "stylelint-scss",
         "ts-node",
         "tsx",
         "vue-tsc"
       ],
       "automerge": true
-    },
-    {
-      "groupName": "stylelint",
-      "matchPackagePatterns": ["stylelint"]
     },
     {
       "groupName": "nuxt",

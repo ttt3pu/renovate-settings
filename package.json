@@ -11,6 +11,6 @@
   "license": "ISC",
   "devDependencies": {
     "prettier": "3.4.2",
-    "renovate": "39.28.0"
+    "renovate": "39.69.2"
   }
 }

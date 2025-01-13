@@ -25,6 +25,7 @@
         "renovate",
         "stylelint",
         "stylelint-scss",
+        "typescript",
         "ts-node",
         "tsx",
         "vue-tsc"

@@ -13,6 +13,7 @@
         "@faker-js/faker",
         "@nuxt/eslint",
         "@types/*",
+        "@eslint/*",
         "eslint",
         "eslint-config-next",
         "http-server",

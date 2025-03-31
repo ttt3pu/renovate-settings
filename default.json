@@ -12,6 +12,7 @@
       "matchPackageNames": [
         "@faker-js/faker",
         "@nuxt/eslint",
+        "@nuxtjs/stylelint-module",
         "@types/*",
         "@eslint/*",
         "eslint",

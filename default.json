@@ -17,6 +17,7 @@
         "@eslint/*",
         "eslint",
         "eslint-config-next",
+        "eslint-config-prettier",
         "http-server",
         "netlify-cli",
         "node.js",

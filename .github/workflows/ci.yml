@@ -8,7 +8,7 @@ on:
     types: [opened, synchronize]
 
 jobs:
-  cd:
+  ci:
     runs-on: ubuntu-latest
 
     steps:

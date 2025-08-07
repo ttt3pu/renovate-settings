@@ -31,7 +31,8 @@
         "typescript",
         "ts-node",
         "tsx",
-        "vue-tsc"
+        "vue-tsc",
+        "zenn-cli"
       ],
       "automerge": true
     },

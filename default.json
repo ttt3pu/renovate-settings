@@ -8,6 +8,7 @@
       "automerge": true
     },
     {
+      "groupName": "npm automerge packages",
       "matchUpdateTypes": ["minor", "patch"],
       "matchPackageNames": [
         "@faker-js/faker",

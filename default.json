@@ -11,6 +11,7 @@
       "groupName": "npm automerge packages",
       "matchUpdateTypes": ["minor", "patch"],
       "matchPackageNames": [
+        "@cloudflare/vitest-pool-workers",
         "@faker-js/faker",
         "@nuxt/eslint",
         "@nuxtjs/stylelint-module",
@@ -19,6 +20,7 @@
         "eslint",
         "eslint-config-next",
         "eslint-config-prettier",
+        "eslint-plugin-react-refresh",
         "http-server",
         "netlify-cli",
         "node.js",

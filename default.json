@@ -43,6 +43,11 @@
     {
       "groupName": "nuxt",
       "matchPackageNames": ["nuxt", "nuxt-typed-router"]
+    },
+    {
+      "groupName": "css related packages",
+      "matchUpdateTypes": ["minor", "patch"],
+      "matchPackageNames": ["sass", "autoprefixer", "postcss", "tailwindcss"]
     }
   ]
 }

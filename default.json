@@ -32,6 +32,7 @@
         "stylelint",
         "stylelint-scss",
         "typescript",
+        "typescript-eslint",
         "ts-node",
         "tsx",
         "vitest",

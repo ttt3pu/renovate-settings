@@ -48,7 +48,7 @@
     {
       "groupName": "css related packages",
       "matchUpdateTypes": ["minor", "patch"],
-      "matchPackageNames": ["sass", "autoprefixer", "postcss", "tailwindcss"]
+      "matchPackageNames": ["sass", "autoprefixer", "postcss", "tailwindcss", "@tailwindcss/postcss"]
     }
   ]
 }

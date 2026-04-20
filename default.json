@@ -20,6 +20,7 @@
         "eslint",
         "eslint-config-next",
         "eslint-config-prettier",
+        "eslint-plugin-react-hooks",
         "eslint-plugin-react-refresh",
         "http-server",
         "netlify-cli",

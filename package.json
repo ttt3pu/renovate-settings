@@ -11,6 +11,6 @@
   "license": "ISC",
   "packageManager": "pnpm@10.34.4",
   "devDependencies": {
-    "prettier": "3.8.4"
+    "prettier": "3.9.4"
   }
 }

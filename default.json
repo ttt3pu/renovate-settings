@@ -1,14 +1,30 @@
 {
   "$schema": "https://docs.renovatebot.com/renovate-schema.json",
-  "extends": ["config:recommended", ":pinDependencies", ":pinDevDependencies", "schedule:weekly"],
+  "extends": [
+    "config:recommended",
+    ":pinDependencies",
+    ":pinDevDependencies",
+    "schedule:daily",
+    "helpers:pinGitHubActionDigests",
+    "abandonments:recommended"
+  ],
   "timezone": "Asia/Tokyo",
+  "osvVulnerabilityAlerts": true,
+  "dependencyDashboardOSVVulnerabilitySummary": "unresolved",
+  "prHourlyLimit": 0,
+  "minimumReleaseAge": "7 days",
+  "internalChecksFilter": "strict",
   "packageRules": [
+    {
+      "matchUpdateTypes": ["pin", "lockFileMaintenance", "replacement"],
+      "minimumReleaseAge": null
+    },
     {
       "matchPackageNames": ["actions/checkout", "actions/setup-node", "pnpm/action-setup"],
       "automerge": true
     },
     {
-      "groupName": "npm automerge packages",
+      "description": "Individual automerge for safe minor/patch updates",
       "matchUpdateTypes": ["minor", "patch"],
       "matchPackageNames": [
         "@cloudflare/vitest-pool-workers",
@@ -27,7 +43,6 @@
         "netlify-cli",
         "node.js",
         "node",
-        "nuxt-typed-router",
         "pnpm",
         "prettier",
         "renovate",

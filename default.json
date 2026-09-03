@@ -13,6 +13,7 @@
       "matchPackageNames": [
         "@cloudflare/vitest-pool-workers",
         "@faker-js/faker",
+        "@next/eslint-plugin-next",
         "@nuxt/eslint",
         "@nuxtjs/stylelint-module",
         "@types/*",

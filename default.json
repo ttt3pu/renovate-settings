@@ -63,6 +63,10 @@
       "matchPackageNames": ["nuxt", "nuxt-typed-router"]
     },
     {
+      "matchPackageNames": ["prisma", "@prisma/**"],
+      "groupName": "prisma monorepo"
+    },
+    {
       "groupName": "css related packages",
       "matchUpdateTypes": ["minor", "patch"],
       "matchPackageNames": ["sass", "autoprefixer", "postcss", "tailwindcss", "@tailwindcss/postcss"]

@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "pnpm --package=renovate dlx renovate-config-validator default.json"
+    "test": "pnpm dlx --package=renovate --allow-build=core-js-pure --allow-build=dtrace-provider --allow-build=protobufjs --allow-build=re2 renovate-config-validator default.json renovate.json"
   },
   "keywords": [],
   "author": "",

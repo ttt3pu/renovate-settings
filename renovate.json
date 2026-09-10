@@ -1,3 +1,11 @@
 {
-  "extends": ["github>ttt3pu/renovate-settings"]
+  "extends": ["github>ttt3pu/renovate-settings"],
+  "packageRules": [
+    {
+      "description": "Automerge pnpm minor/patch when tests pass",
+      "matchPackageNames": ["pnpm"],
+      "matchUpdateTypes": ["minor", "patch"],
+      "automerge": true
+    }
+  ]
 }

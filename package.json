@@ -4,12 +4,12 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "pnpm --package=renovate dlx renovate-config-validator default.json"
+    "test": "npx --package=renovate -c 'renovate-config-validator default.json renovate.json'"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "packageManager": "pnpm@10.34.5",
+  "packageManager": "pnpm@12.3.0",
   "devDependencies": {
     "prettier": "3.9.6"
   }

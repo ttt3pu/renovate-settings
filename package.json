@@ -9,7 +9,7 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "packageManager": "pnpm@12.12.1",
+  "packageManager": "pnpm@12.13.0",
   "devDependencies": {
     "prettier": "3.9.10"
   }

@@ -68,6 +68,11 @@
       "groupName": "prisma monorepo"
     },
     {
+      "groupName": "stylelint packages",
+      "matchPackageNames": ["stylelint", "stylelint-*", "@stylistic/stylelint-*", "@nuxtjs/stylelint-module"],
+      "separateMajorMinor": false
+    },
+    {
       "groupName": "css related packages",
       "matchUpdateTypes": ["minor", "patch"],
       "matchPackageNames": ["sass", "autoprefixer", "postcss", "tailwindcss", "@tailwindcss/postcss"]
